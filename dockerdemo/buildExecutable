@@ -1,0 +1,7 @@
+cd /
+cd \Users\Linux\Desktop\gitproject\dockerdemo
+docker stop helloworld
+docker rm helloworld
+docker build -t hello-world \users\Linux\Desktop\gitproject\dockerdemo\
+docker run -d --name helloworld -p 81:80 -v \users\Linux\Desktop\gotproject\dockerdemo\src:/var/www/html hello-world
+
